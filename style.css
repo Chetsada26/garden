@@ -6,18 +6,16 @@
     list-style: none;
     box-sizing: border-box;
 }
-
-html {
-    scroll-behavior: smooth;
-}
 body {
     background: #fafafa;
     font-family: 'Kanit', sans-serif;
     color: #2a2a2a;
+    background: url(Home/bg.png);
 }
 
-main {
-    margin-top: 30px;
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*--------------------------------------------------------------
@@ -99,28 +97,50 @@ header nav ul li a.active {
 # ป้ายโครงการ
 --------------------------------------------------------------*/
 
-.pss {
-    background-color: #F5E3FA;
-    border: 10px solid #A64AA1;
-    background-image: url('Home/A4.png');
+#Home {
+    display: flex;
+    box-sizing: border-box;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    max-width: 1100px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 25px;
-
+    align-self: flex-start;
+    border-radius: 15px;
+    width: 90%;
+    height: 85vh;
 }
 
 .img_pss {
-    width: 150px;
+    width: 100%;
+    max-width: 650px;
+    min-width: 350px;
 }
 
 .pss_text {
-    font-family: 'Kanit', sans-serif;
-    font-size: 34px;
-    color: #99358f;
+    width: auto;
+    margin: 0 30px;
 }
+
+.pss_text h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: #1a237e;
+
+}
+
+.pss_text p {
+    font-size: 25px;
+    color: #3f51b5;
+}
+
+.start_bt { 
+    padding: 20px 60px;
+    border-radius: 45px;
+    background: #1a237e;
+    color: #fff;
+    font-size: 15px;
+}
+
 
 /*--------------------------------------------------------------
 # จำนวนพรรณไม้
@@ -215,6 +235,7 @@ header nav ul li a.active {
     background-color: #3f51b5;
     border: none;
     color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 10px;
     padding: 15px;
@@ -361,11 +382,11 @@ header nav ul li a.active {
   pointer-events: none;
 }
 .carousel img{
-    text-align: center;
     direction: row;
     height: 250px;
     object-fit: cover;
     user-select: none;
+    margin-left: 14px;
     border-radius: 8px;
 }
 
