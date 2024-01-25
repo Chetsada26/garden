@@ -285,6 +285,10 @@ header nav ul li a.active {
     background-image: url(/plants/p6.jpg);
 }
 
+.img8 {
+    background-image: url(/plants/p8.jpg);
+}
+
 .img7 {
     background-image: url(/plants/p7.jpg);
 }
@@ -301,9 +305,23 @@ header nav ul li a.active {
     background-image: url(/plants/p10.jpg);
 }
 
+.img11 {
+    background-image: url(/plants/p11.jpg);
+}
+
+.img12 {
+    background-image: url(/plants/p12.jpg);
+}
+
+.img13 {
+    background-image: url(/plants/p13.jpg);
+}
+
 /*--------------------------------------------------------------
 #end img
 --------------------------------------------------------------*/
+
+
 
 /*--------------------------------------------------------------
 # ปุ่มข้อมูลเพิ่มเติม
