@@ -262,63 +262,104 @@ header nav ul li a.active {
 --------------------------------------------------------------*/
 
 .img1 {
-    background-image: url(/plants/p1.jpg);
+    background-image: url(plants/p1.jpg);
 }
 
 .img2 {
-    background-image: url(/plants/p2.jpg);
+    background-image: url(plants/p2.jpg);
 }
 
 .img3 {
-    background-image: url(/plants/p3.jpg);
+    background-image: url(plants/p3.jpg);
 }
 
 .img4 {
-    background-image: url(/plants/p4.jpg);
+    background-image: url(plants/p4.jpg);
 }
 
 .img5 {
-    background-image: url(/plants/p5.jpg);
+    background-image: url(plants/p5.jpg);
 }
 
 .img6 {
-    background-image: url(/plants/p6.jpg);
+    background-image: url(plants/p6.jpg);
 }
 
 .img8 {
-    background-image: url(/plants/p8.jpg);
+    background-image: url(plants/p8.jpg);
 }
 
 .img7 {
-    background-image: url(/plants/p7.jpg);
+    background-image: url(plants/p7.jpg);
 }
 
 .img8 {
-    background-image: url(/plants/p8.jpg);
+    background-image: url(plants/p8.jpg);
 }
 
 .img9 {
-    background-image: url(/plants/p9.jpg);
+    background-image: url(plants/p9.jpg);
 }
 
 .img10 {
-    background-image: url(/plants/p10.jpg);
+    background-image: url(plants/p10.jpg);
 }
 
 .img11 {
-    background-image: url(/plants/p11.jpg);
+    background-image: url(plants/p11.jpg);
 }
 
 .img12 {
-    background-image: url(/plants/p12.jpg);
+    background-image: url(plants/p12.jpg);
 }
 
 .img13 {
-    background-image: url(/plants/p13.jpg);
+    background-image: url(plants/p13.jpg);
 }
 
 /*--------------------------------------------------------------
 #end img
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+#apimg
+--------------------------------------------------------------*/
+
+.apimg1 {
+    background-image: url(Additional-plants/ap1.jpg);
+}
+
+.apimg2 {
+    background-image: url(Additional-plants/ap2.jpg);
+}
+
+.apimg3 {
+    background-image: url(Additional-plants/ap3.jpg);
+}
+
+.apimg4 {
+    background-image: url(Additional-plants/ap4.jpg);
+}
+
+.apimg5 {
+    background-image: url(Additional-plants/ap5.jpg);
+}
+
+.apimg6 {
+    background-image: url(Additional-plants/ap6.jpg);
+}
+
+.apimg7 {
+    background-image: url(Additional-plants/ap7.jpg);
+}
+
+.apimg8 {
+    background-image: url(Additional-plants/ap8.jpg);
+}
+
+/*--------------------------------------------------------------
+#end apimg
 --------------------------------------------------------------*/
 
 
